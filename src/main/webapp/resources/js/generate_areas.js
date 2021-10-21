@@ -162,7 +162,7 @@ function getCircleSvg(x, y, isHit) {
 
 function redrawPoints() {
     clearPoints();
-    console.log("REDRAW");
+    // console.log("REDRAW");
     const xTableValues = document.getElementsByClassName("table-x-value");
     const yTableValues = document.getElementsByClassName("table-y-value");
     const rTableValues = document.getElementsByClassName("table-r-value");
